@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-6.4.2-web/css/all.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6f5013579e.js" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+  </head>
+<body>
+    <header>
+        <div id="head-container">
+            <div id="head-right">
+                <img src="https://cdn.storyasset.link/rDoQLC7Q6Ge2nxiqZ1urXiiRSIA3/tata-ipl-logo-indya-talks-sanket-savaliya-removebg-preview-ms-qeladdzjmt.png" alt="logo here" id="logo">
+               <a href="./index.html"> <button id="home-button" class="add-button">Home</button></a>
+            </div>
+           <div id="head-left">
+            <div class="search-input">
+                <a href="" target="_blank" hidden></a>
+                <input type="text" placeholder="Enter team code..           eg -MI">
+                <div class="autocom-box">
+               
+                </div>
+                <div class="icon"><i class="fas fa-search"></i></div>
+              </div>
+                <button id="add-team-button" class="add-button" onclick="addteamclicked()">
+                    Add Team
+                </button>
+                <button id="add-player-button" class="add-button" onclick="addPlayerClicked()">
+                    Add Player
+                </button>
+           </div>
+        </div>
+    </header>
+       <!-- image slider start sk -->
+
+  
+  <div class="slider">
+    <div class="slides">
+
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      
+      <div class="slide">
+        <img src="https://exchange4media.gumlet.io/news-photo/125460-IPL.JPG?w=400&dpr=2.6" alt="">
+      </div>
+      <div class="slide first">
+        <img src="https://img.cricketworld.com/images/f-122898/fkqtiglxkaaw0xn.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="https://images.moneycontrol.com/static-mcnews/2023/05/6-ipl-2023-final-csk-vs-gt.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="https://v3img.voot.com/v3Storage/assets/tata_ipl-1674281777843.jpeg" alt="">
+      </div>
+    
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+    </div>
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+  </div>
+ 
+   <h1 id="slogan">2023 TATA IPL Teams</h1>
+     <div id="first-main">
+
+       <div id="container_teams">
+      
+       </div>
+
+     </div>
+     <footer>
+      <div class="tata"><h2>TATA IPL Teams 2023</h2>
+        <h4> EdYoda Certification Exam - 2023 -By Swapnil Kumar</h4>
+        <h4>2023-<i class="fa-sharp fa-regular fa-copyright"></i> All Copyrights Reserved</h4>
+         <img style="height: 200px; width: 250px; margin-left: 1000px; top: -20px;" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3773cb-5629-4145-b044-4ef6f9090376/dezxlwr-349fb8f9-71a0-47e7-b996-bb1a03692db8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljMzc3M2NiLTU2MjktNDE0NS1iMDQ0LTRlZjZmOTA5MDM3NlwvZGV6eGx3ci0zNDlmYjhmOS03MWEwLTQ3ZTctYjk5Ni1iYjFhMDM2OTJkYjgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._ziF5bSfs7G3OLfBlrgo06MSroKXlQQyHO9xH0Ef7WU"/>
+      </div>
+      
+  </footer>
+    
+
+
+
+    <script src="./index.js"></script>
+  
+  
+</body>
+</html>
